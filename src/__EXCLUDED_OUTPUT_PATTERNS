@@ -1,0 +1,11 @@
+ocamldep.opt -modules QuickChick
+ocamlc.opt -c -o QuickChick
+ocamlopt.opt -c -o QuickChick
+File "QuickChick
+Pervasives
+Alert deprecated: module Stdlib.Pervasives
+Use Stdlib instead.
+If you need to stay compatible with OCaml
+stdlib-shims library: https://github.com/ocaml/stdlib-shims
+ocamlopt.opt QuickChick
+\^\^\^\^

@@ -1,0 +1,30 @@
+############################################################################
+# Copyright 2021-2022 Catherine Dubois, Nicolas Magaud and Alain Giorgetti #
+# Samovar - ICube - FEMTO-ST institute                                     #
+############################################################################
+
+############################################################################
+#      This file is distributed under the terms of the                     #
+#       GNU Lesser General Public License Version 2.1                      #
+############################################################################
+
+# See Makefile for the command to compile all files.
+
+-R . Top
+
+prelude.v
+familyInterface.v # framework
+closable.v        # Motzkin trees + closable skeletons
+ucs.v             # uniquely closable Motzkin trees
+open.v            # lmt + m-open terms
+BT17.v            # Proofs of claims in [BT17]
+automation.v      # Coq tactics for framework lemmas
+label.v           # Relation between labeled Motzkin trees and skeletons
+qc_closable.v     # Generators and tests
+val_qc_closable.v
+qc_ucs.v
+val_qc_ucs.v
+qc_open.v
+val_qc_open.v
+linear.v
+
