@@ -26,5 +26,3 @@ qc_ucs.v
 val_qc_ucs.v
 qc_open.v
 val_qc_open.v
-linear.v
-
