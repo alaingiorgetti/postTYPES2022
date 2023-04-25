@@ -10,7 +10,7 @@ This repository distributes a framework for dealing with different data represen
 
 ## Compatibility
 
-The code is known to work with Coq 8.10.2 and QuickChick 1.2.1.
+The code is known to work at least from Coq 8.10.2 (with QuickChick 1.2.1) to Coq 8.16.1 (with QuickChick 1.6.4).
 
 ## Running the code
 
